@@ -71,4 +71,11 @@ private:
     bool isEmpty(){
         return top == NULL; // return true if the top pointer is NULL,indicating an
     }
+};
+
+int main(){
+    stack Stack;
+
+    int choice = 0;
+    int value;
 }
