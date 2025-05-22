@@ -44,4 +44,5 @@ private:
             cout << " Stack is empty. " << endl;
         }
     
-    }
+        Node *temp = top; // create a temporary pointer to the top node
+       
