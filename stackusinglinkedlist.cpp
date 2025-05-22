@@ -54,4 +54,21 @@ private:
         {
             cout << " List is empty. " << endl;
         } 
+        else
+        {
+            Node* current = top;
+            while (current != NULL)
+            {
+                cout << current->data <<" " << endl;
+                current = current->next;
+            }
+            cout << endl;
+
+        }// Return the value of the top node
     }
+    
+    // IsEmpty operation: check if the stack is empty
+    bool isEmpty(){
+        return top == NULL; // return true if the top pointer is NULL,indicating an
+    }
+};
