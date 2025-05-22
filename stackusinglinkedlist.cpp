@@ -48,4 +48,10 @@ private:
         top = top->next;  // Update the top pointer to the next node
         cout << " Popped value: " << top->data << endl;
     }
-   
+    // peek/top operation : retrive the value of the topmost element without removing
+    void peek(){
+        if (top == NULL)
+        {
+            cout << " List is empty. " << endl;
+        } 
+    }
